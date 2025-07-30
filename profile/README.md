@@ -41,8 +41,8 @@ let biodata = {
   age: 15,
   profession: "Developer",
   education: "High School Student",
-  skills: ["HTML", "CSS", "JavaScript", "React"],
-  interests: ["Programming", "Anime", "Game"],
+  skills: ["Kotlin/Java", "Python", ".Net", "JavaScript"],
+  interests: ["Rhythm Game", "Novel", "VOCALOID"],
   introduce : function() {
     return `Hello! I'm ${this.name}, a ${this.profession} aged ${this.age}. I'm currently a ${this.education} and have skills in ${this.skills.join(", ")}. I'm also interested in ${this.interests.join(", ")}.`;
   }
