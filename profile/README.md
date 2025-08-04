@@ -13,7 +13,7 @@ speed = speed * 0.1 # The world
 </p>
 
 ### MEMBERS
-**Render**
+**Render** (<a href="https://github.com/Ren-deRing" target="_blank">Ren-deRing</a>)
 ```python
 class Profile:
     def __init__(self):
@@ -21,8 +21,8 @@ class Profile:
         self.age = 15
         self.profession = "Developer"
         self.education = "High School Student"
-        self.skills = ["Python", "TypeScript", "C#", "Dart"]
-        self.interests = ["Full-Stack", "DNN", "OS", "Game Engine"]
+        self.skills = ["Python", "JavaScript", "C#"]
+        self.interests = ["Full-Stack", "DNN", "OS", "Anime"]
     
     def introduce(self):
         return (
@@ -34,19 +34,20 @@ class Profile:
 profile = Profile()
 print(profile.introduce())
 ```
-**kuroka3**
+**kuroka3** (<a href="https://github.com/kuroka35" target="_blank">kuroka3</a>)
 ```javascript
-let biodata = {
-  name: "?",
+let data = {
+  name: "kuroka3",
   age: 15,
   profession: "Developer",
   education: "High School Student",
   skills: ["Kotlin/Java", "Python", ".Net", "JavaScript"],
-  interests: ["Rhythm Game", "Novel", "VOCALOID"],
+  interests: ["Rhythm Game", "Novel", "VOCALOID", "Full-Stack"],
   introduce : function() {
     return `Hello! I'm ${this.name}, a ${this.profession} aged ${this.age}. I'm currently a ${this.education} and have skills in ${this.skills.join(", ")}. I'm also interested in ${this.interests.join(", ")}.`;
   }
 };
 
-console.log(biodata.introduce());
+console.log(data.introduce());
 ```
+
